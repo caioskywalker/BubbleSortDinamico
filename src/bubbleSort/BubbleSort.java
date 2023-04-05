@@ -12,7 +12,7 @@ public class BubbleSort {
 		
 		int[] array = {4,8,92,5,1,6,54}; //matriz simples
 		
-		int n = array.length; //"n" será o tamanho do array
+		int n = array.length; //"n" será o tamanho do array, mas nesse caso será desnecessário, você poderá substituir arra.length por 'n' se quiser
 		int temp = 0; // começa com zero, mas será a variável que guardará um dado para reposicioná-lo
 		
 		for(int i = 0; i < array.length; i++) { // Será repetido a operação enquanto o 'i' for menor que o tamanho do array.
